@@ -20,5 +20,8 @@ _Building:_ `gradlew desktop:dist`
 
 ### Linux/Mac OS
 
+> [!NOTE]
+> FOR LINUX users, run **chmod +x gradlew** as if you try to run it normally it would result **permission denied** error, this is also for any builded jar. 
+
 _Running:_ `./gradlew desktop:run`  
 _Building:_ `./gradlew desktop:dist` 
