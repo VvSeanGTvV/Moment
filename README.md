@@ -10,7 +10,7 @@ Moment is an early version based on this [commit](https://github.com/Anuken/Mind
 
 ## Building
 
-> [!NOTE]
+> [!IMPORTANT]
 > Before building, running, or packing Moment.jar, please do note, install GRADLE 2.10 or run with GRADLEW -V, if it fails try using (VIA LOCALLY) the gradle-2.10-rc-2-all.zip to the gradle installation folder or where it failed to unzip the file.
 
 ### Windows
@@ -20,8 +20,8 @@ _Building:_ `gradlew desktop:dist`
 
 ### Linux/Mac OS
 
-> [!NOTE]
-> FOR LINUX users, run **chmod +x gradlew** as if you try to run it normally it would result **permission denied** error, also LINUX cannot run at all IF it was builded, but can able to able to use **desktop:run**.
+> [!IMPORTANT]
+> FOR LINUX users, run **chmod +x gradlew** as if you try to run it normally it would result **permission denied** error, also LINUX cannot run at all IF it was builded, but can able to use **desktop:run**.
 
 _Running:_ `./gradlew desktop:run`  
 _Building:_ `./gradlew desktop:dist` 
